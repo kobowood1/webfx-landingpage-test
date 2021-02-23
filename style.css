@@ -8,6 +8,7 @@
   color: hsl(228, 45%, 44%);
 } */
 
+/* created the colour palette */
 :root{
   --page-red: hsl(0, 100%, 68%);
   --very-dark-blue: hsl(230, 29%, 20%);
@@ -26,7 +27,7 @@ body, html {
   position: relative;
 }
 
-/* created the light grayish blue background effect */
+/* created the background style */
 body::after{
   content: '';
   width: 50vw;
