@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap');
+
+/* .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+} */
+
+/* removed padding and margin */
+body, html {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+
+/* applied default font to all elements */
+* {
+  font-family: 'Barlow Condensed', sans-serif;
+}
