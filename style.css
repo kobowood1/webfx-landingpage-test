@@ -261,6 +261,7 @@ body::after{
 
 @media screen and (max-width: 769px) {
   .navigation-menu {
+    display: none;
     width: 75vw;
     max-width: 400px;
     background: #fff;
@@ -277,6 +278,14 @@ body::after{
 
   .navigation-menu li {
     margin: 15px 10px;
+  }
+
+  .navigation-menu.show-menu {
+    display: block;
+  }
+
+  .navigation-dot{
+    height: 10px;
   }
 
   .navigation-dot::after{
